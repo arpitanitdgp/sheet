@@ -21,9 +21,10 @@ import stepdefinations.BaseClass;
 
  By register = By.xpath("//a[text()=' Register ']");
  By registerBtn = By.xpath("//input[@value='Register']");
- // By username = By.name("username");
- // By password = By.name("password1");
- // By password2 = By.name("password2");
+ By loginbutton = By.xpath("//a[contains(text(),'Login')]");
+ By dropdown = By.xpath("//div[@class='nav-item dropdown']");
+By arraybutton = By.xpath("//a[contains(text(),'Arrays')]");
+By Alertmessage = By.xpath("//div[@class='alert alert-primary']");
  // By errorMessage = By.xpath("//div[@class='alert alert-primary']");
 
 
@@ -66,6 +67,27 @@ import stepdefinations.BaseClass;
 
  }
 
+
+public void loginbutton () {
+	
+	driver.findElement(loginbutton).click();
+}
+
+public void dropdownbutton() {
+	
+	driver.findElement(dropdown).click();
+}
+
+public void arraybutton() {
+	
+	driver.findElement(arraybutton).click();
+}
+
+
+public void alertmessage() {
+	
+	driver.findElement(Alertmessage).isDisplayed();
+}
 
 
 

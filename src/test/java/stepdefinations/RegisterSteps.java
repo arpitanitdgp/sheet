@@ -227,30 +227,36 @@ import utilities.Helper;
 
 	@When("user click to login button")
 	public void user_click_to_login_button() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
+	    Registerpage.loginbutton();
+		
 	}
 	@Then("user should be redirected to Login Page")
 	public void user_should_be_redirected_to_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
+	   
 	}
 
 
 @Given("user click to Dropdown of DataStructure")
 public void user_click_to_dropdown_of_data_structure() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+    
+	 Registerpage.dropdownbutton();
+    
 }
 @When("user navigate to Array button")
 public void user_navigate_to_array_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+    
+	
+	 Registerpage.arraybutton();
+    
 }
 @Then("user get Alert Message {string}")
 public void user_get_alert_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+    
+    
+	Registerpage.alertmessage();
+	
 }
 
 

@@ -1,7 +1,7 @@
 package stepdefinations;
 
 
- import org.junit.Assert;
+ import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
