@@ -1,6 +1,6 @@
 package stepdefinations;
 
-import pageObjects.ArrayPage;
+import pageObjects.ArrayPageTest;
 import pageObjects.DataStructurePage;
 import pageObjects.GraphPage;
 import pageObjects.HomePage;
@@ -19,7 +19,7 @@ public class BaseClass{
 	
 	public Registerpage Registerpage;
 	
-	public ArrayPage ArrayPage;
+	public ArrayPageTest ArrayPage;
 	
 	public GraphPage GraphPAge;
 	

@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageObjects.ArrayPage;
+import pageObjects.ArrayPageTest;
 import pageObjects.DataStructurePage;
 import pageObjects.HomePage;
 import pageObjects.LinkedlistPage;
@@ -19,7 +19,7 @@ public HomePage HomePage;
     public Registerpage RegisterPage;
     public LoginPage LoginPage;
     public DataStructurePage DataStructurePage;
-    public ArrayPage Arraypage;
+    public ArrayPageTest Arraypage;
     public LinkedlistPage LinkedlisPage;
    
    

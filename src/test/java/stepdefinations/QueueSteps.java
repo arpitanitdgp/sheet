@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageObjects.ArrayPage;
+import pageObjects.ArrayPageTest;
 import pageObjects.DataStructurePage;
 import pageObjects.GraphPage;
 import pageObjects.HomePage;
@@ -22,7 +22,7 @@ public class QueueSteps extends BaseClass{
 	public HomePage HomePage;
     public Registerpage Registerpage;
     public LoginPage LoginPage;
-    public ArrayPage ArrayPage;
+    public ArrayPageTest ArrayPage;
     public DataStructurePage DataStructurePage;
     public LinkedlistPage LinkedlistPage;
     public GraphPage GraphPage;

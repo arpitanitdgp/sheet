@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 
    monochrome=false, 
-//  tags = "@StackPage, @DataStructure",
+
   features= {"src/test/resources/features"}, 
   glue= "stepdefinations",
    dryRun= false)

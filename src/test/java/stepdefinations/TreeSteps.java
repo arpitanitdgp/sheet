@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageObjects.ArrayPage;
+import pageObjects.ArrayPageTest;
 import pageObjects.DataStructurePage;
 import pageObjects.GraphPage;
 import pageObjects.HomePage;
@@ -22,7 +22,7 @@ import utilities.Helper;
     public LoginPage LoginPage;
     public TreePage TreePage;
 public DataStructurePage DataStructurePage;
- public ArrayPage ArrayPage;
+ public ArrayPageTest ArrayPage;
  public LinkedlistPage LinkedlistPage;
  public GraphPage GraphPage;
 	WebDriver driver = Helper.getDriver();
