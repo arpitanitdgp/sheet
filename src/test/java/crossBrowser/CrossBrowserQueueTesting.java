@@ -549,7 +549,7 @@ import org.testng.annotations.Test;
 			  		queuegetstartedbtn.click();		 
 			  WebElement practicequestion = driver.findElement(By.xpath("//a[contains(text(),'Practice Questions')]"));
 			  	  practicequestion.click();
-			  WebElement signout = driver.findElement(By.xpath("//a[contains(text(),'Sign out')]"));
+			  	 WebElement signout = driver.findElement(By.xpath("//a[contains(text(),'Sign out')]"));
 			  	signout.click();
 			  	 
 			  	  System.out.println("user open the Practice question page ");

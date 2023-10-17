@@ -1,71 +1,1355 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="57" passed="53" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-15T22:20:00 EDT" name="Default suite" finished-at="2023-10-15T22:20:07 EDT" duration-ms="6932">
+  <suite started-at="2023-10-17T17:04:52 EDT" name="Suite" finished-at="2023-10-17T17:08:23 EDT" duration-ms="210501">
     <groups>
     </groups>
-    <test started-at="2023-10-15T22:20:00 EDT" name="Default test" finished-at="2023-10-15T22:20:07 EDT" duration-ms="6932">
-      <class name="DataDrivenTest.DataDriven_RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataDrivenTest.DataDriven_RegisterTest@394df057]" started-at="2023-10-15T22:20:00 EDT" name="setup" finished-at="2023-10-15T22:20:04 EDT" duration-ms="4148" status="PASS">
+    <test started-at="2023-10-17T17:04:52 EDT" name="Testonmychrome" finished-at="2023-10-17T17:07:05 EDT" duration-ms="132978">
+      <class name="crossBrowser.CrossBrowserQueueTesting">
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:04:52 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:04:58 EDT" duration-ms="6082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="RegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataDrivenTest.DataDriven_RegisterTest@394df057]" started-at="2023-10-15T22:20:06 EDT" name="RegisterTest" data-provider="RegisterData" finished-at="2023-10-15T22:20:06 EDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.RuntimeException">
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="login()[pri:1, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:04:58 EDT" name="login" finished-at="2023-10-17T17:05:02 EDT" duration-ms="3355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:02 EDT" name="browserQuit" finished-at="2023-10-17T17:05:02 EDT" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:02 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:06 EDT" duration-ms="4316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="QueuePage()[pri:2, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:06 EDT" name="QueuePage" finished-at="2023-10-17T17:05:10 EDT" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueuePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:10 EDT" name="browserQuit" finished-at="2023-10-17T17:05:10 EDT" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:10 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:13 EDT" duration-ms="2632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="pythonQueueImplmentationPage()[pri:3, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:13 EDT" name="pythonQueueImplmentationPage" finished-at="2023-10-17T17:05:15 EDT" duration-ms="2424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pythonQueueImplmentationPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:15 EDT" name="browserQuit" finished-at="2023-10-17T17:05:16 EDT" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:16 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:19 EDT" duration-ms="3059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHerePythonImplmentation()[pri:4, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:19 EDT" name="tryHerePythonImplmentation" finished-at="2023-10-17T17:05:23 EDT" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHerePythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:23 EDT" name="browserQuit" finished-at="2023-10-17T17:05:23 EDT" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:23 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:26 EDT" duration-ms="3132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnPythonImplmentation()[pri:5, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:26 EDT" name="ErrormsgOnPythonImplmentation" finished-at="2023-10-17T17:05:30 EDT" duration-ms="4143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnPythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:30 EDT" name="browserQuit" finished-at="2023-10-17T17:05:31 EDT" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:31 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:34 EDT" duration-ms="3267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnPythonImplmentation()[pri:5, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:34 EDT" name="PrintmsgOnPythonImplmentation" finished-at="2023-10-17T17:05:39 EDT" duration-ms="4540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnPythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:39 EDT" name="browserQuit" finished-at="2023-10-17T17:05:39 EDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:39 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:41 EDT" duration-ms="2628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="DequePage()[pri:6, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:41 EDT" name="DequePage" finished-at="2023-10-17T17:05:44 EDT" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DequePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:44 EDT" name="browserQuit" finished-at="2023-10-17T17:05:44 EDT" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:44 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:47 EDT" duration-ms="2737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereDeque()[pri:7, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:47 EDT" name="tryHereDeque" finished-at="2023-10-17T17:05:51 EDT" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:51 EDT" name="browserQuit" finished-at="2023-10-17T17:05:51 EDT" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:51 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:55 EDT" duration-ms="3529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnDeque()[pri:8, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:55 EDT" name="ErrormsgOnDeque" finished-at="2023-10-17T17:05:58 EDT" duration-ms="3049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:58 EDT" name="browserQuit" finished-at="2023-10-17T17:05:58 EDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:05:58 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:01 EDT" duration-ms="2481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnDeque()[pri:9, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:01 EDT" name="PrintmsgOnDeque" finished-at="2023-10-17T17:06:05 EDT" duration-ms="4220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:05 EDT" name="browserQuit" finished-at="2023-10-17T17:06:05 EDT" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:05 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:09 EDT" duration-ms="3255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="OnImplementationArrayPage()[pri:10, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:09 EDT" name="OnImplementationArrayPage" finished-at="2023-10-17T17:06:12 EDT" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnImplementationArrayPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:12 EDT" name="browserQuit" finished-at="2023-10-17T17:06:12 EDT" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:12 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:15 EDT" duration-ms="2449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereOnImplementationArray()[pri:11, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:15 EDT" name="tryHereOnImplementationArray" finished-at="2023-10-17T17:06:18 EDT" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:18 EDT" name="browserQuit" finished-at="2023-10-17T17:06:19 EDT" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:19 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:21 EDT" duration-ms="2323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnPrintmsgOnImplementationArray()[pri:12, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:21 EDT" name="ErrormsgOnPrintmsgOnImplementationArray" finished-at="2023-10-17T17:06:27 EDT" duration-ms="5673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnPrintmsgOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:27 EDT" name="browserQuit" finished-at="2023-10-17T17:06:27 EDT" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:27 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:30 EDT" duration-ms="2610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnImplementationArray()[pri:13, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:30 EDT" name="PrintmsgOnImplementationArray" finished-at="2023-10-17T17:06:33 EDT" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:33 EDT" name="browserQuit" finished-at="2023-10-17T17:06:33 EDT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:33 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:35 EDT" duration-ms="2499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="QueueOperationsPage()[pri:14, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:35 EDT" name="QueueOperationsPage" finished-at="2023-10-17T17:06:38 EDT" duration-ms="2811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueueOperationsPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:38 EDT" name="browserQuit" finished-at="2023-10-17T17:06:39 EDT" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:39 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:41 EDT" duration-ms="2510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereOnQueueOperations()[pri:15, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:41 EDT" name="tryHereOnQueueOperations" finished-at="2023-10-17T17:06:45 EDT" duration-ms="3774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:45 EDT" name="browserQuit" finished-at="2023-10-17T17:06:45 EDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:45 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:47 EDT" duration-ms="2075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnQueueOperations()[pri:16, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:47 EDT" name="ErrormsgOnQueueOperations" finished-at="2023-10-17T17:06:52 EDT" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:52 EDT" name="browserQuit" finished-at="2023-10-17T17:06:52 EDT" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:52 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:55 EDT" duration-ms="2675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnQueueOperations()[pri:17, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:06:55 EDT" name="PrintmsgOnQueueOperations" finished-at="2023-10-17T17:07:00 EDT" duration-ms="4571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:07:00 EDT" name="browserQuit" finished-at="2023-10-17T17:07:00 EDT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:07:00 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:02 EDT" duration-ms="2223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PracticePage()[pri:18, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:07:02 EDT" name="PracticePage" finished-at="2023-10-17T17:07:05 EDT" duration-ms="2643" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because "this.row" is null]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Practice Questions')]"}
+  (Session info: chrome=118.0.5993.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5aa7320f840c16daa2c7ed0db248cdab, findElement {using=xpath, value=//a[contains(text(),'Practice Questions')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\sheet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56370/devtoo..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5aa7320f840c16daa2c7ed0db248cdab]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because "this.row" is null
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:791)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because "this.row" is null
-at Excel.ExcelHandling.getCellData(ExcelHandling.java:65)
-at DataDrivenTest.DataDriven_RegisterTest.getData(DataDriven_RegisterTest.java:70)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Practice Questions')]"}
+  (Session info: chrome=118.0.5993.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5aa7320f840c16daa2c7ed0db248cdab, findElement {using=xpath, value=//a[contains(text(),'Practice Questions')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\sheet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56370/devtoo..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5aa7320f840c16daa2c7ed0db248cdab
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at crossBrowser.CrossBrowserQueueTesting.PracticePage(CrossBrowserQueueTesting.java:550)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-... 25 more
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:DataDrivenTest.DataDriven_RegisterTest@394df057]" started-at="2023-10-15T22:20:06 EDT" name="teardown" finished-at="2023-10-15T22:20:07 EDT" duration-ms="230" status="PASS">
+        </test-method> <!-- PracticePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@71e9ddb4]" started-at="2023-10-17T17:07:05 EDT" name="browserQuit" finished-at="2023-10-17T17:07:05 EDT" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- DataDrivenTest.DataDriven_RegisterTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- browserQuit -->
+      </class> <!-- crossBrowser.CrossBrowserQueueTesting -->
+    </test> <!-- Testonmychrome -->
+    <test started-at="2023-10-17T17:04:52 EDT" name="Testonmyedge" finished-at="2023-10-17T17:07:06 EDT" duration-ms="133485">
+      <class name="crossBrowser.CrossBrowserQueueTesting">
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:04:52 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:04:58 EDT" duration-ms="6082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="login()[pri:1, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:04:58 EDT" name="login" finished-at="2023-10-17T17:05:01 EDT" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:01 EDT" name="browserQuit" finished-at="2023-10-17T17:05:02 EDT" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:02 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:04 EDT" duration-ms="2442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="QueuePage()[pri:2, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:04 EDT" name="QueuePage" finished-at="2023-10-17T17:05:09 EDT" duration-ms="4764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueuePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:09 EDT" name="browserQuit" finished-at="2023-10-17T17:05:10 EDT" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:10 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:12 EDT" duration-ms="2332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="pythonQueueImplmentationPage()[pri:3, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:12 EDT" name="pythonQueueImplmentationPage" finished-at="2023-10-17T17:05:15 EDT" duration-ms="3122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pythonQueueImplmentationPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:15 EDT" name="browserQuit" finished-at="2023-10-17T17:05:15 EDT" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:15 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:18 EDT" duration-ms="2264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHerePythonImplmentation()[pri:4, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:18 EDT" name="tryHerePythonImplmentation" finished-at="2023-10-17T17:05:22 EDT" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHerePythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:22 EDT" name="browserQuit" finished-at="2023-10-17T17:05:23 EDT" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:23 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:25 EDT" duration-ms="2283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnPythonImplmentation()[pri:5, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:25 EDT" name="ErrormsgOnPythonImplmentation" finished-at="2023-10-17T17:05:30 EDT" duration-ms="5088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnPythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:30 EDT" name="browserQuit" finished-at="2023-10-17T17:05:31 EDT" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:31 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:33 EDT" duration-ms="1999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnPythonImplmentation()[pri:5, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:33 EDT" name="PrintmsgOnPythonImplmentation" finished-at="2023-10-17T17:05:38 EDT" duration-ms="5465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnPythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:38 EDT" name="browserQuit" finished-at="2023-10-17T17:05:38 EDT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:38 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:40 EDT" duration-ms="1983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="DequePage()[pri:6, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:40 EDT" name="DequePage" finished-at="2023-10-17T17:05:44 EDT" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DequePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:44 EDT" name="browserQuit" finished-at="2023-10-17T17:05:44 EDT" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:44 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:46 EDT" duration-ms="2121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereDeque()[pri:7, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:46 EDT" name="tryHereDeque" finished-at="2023-10-17T17:05:51 EDT" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:51 EDT" name="browserQuit" finished-at="2023-10-17T17:05:52 EDT" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:52 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:54 EDT" duration-ms="2238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnDeque()[pri:8, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:54 EDT" name="ErrormsgOnDeque" finished-at="2023-10-17T17:05:58 EDT" duration-ms="4126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:58 EDT" name="browserQuit" finished-at="2023-10-17T17:05:58 EDT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:05:58 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:01 EDT" duration-ms="2621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnDeque()[pri:9, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:01 EDT" name="PrintmsgOnDeque" finished-at="2023-10-17T17:06:05 EDT" duration-ms="3922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:05 EDT" name="browserQuit" finished-at="2023-10-17T17:06:05 EDT" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:05 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:08 EDT" duration-ms="2319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="OnImplementationArrayPage()[pri:10, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:08 EDT" name="OnImplementationArrayPage" finished-at="2023-10-17T17:06:12 EDT" duration-ms="4467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnImplementationArrayPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:12 EDT" name="browserQuit" finished-at="2023-10-17T17:06:13 EDT" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:13 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:15 EDT" duration-ms="2442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereOnImplementationArray()[pri:11, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:15 EDT" name="tryHereOnImplementationArray" finished-at="2023-10-17T17:06:18 EDT" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:18 EDT" name="browserQuit" finished-at="2023-10-17T17:06:19 EDT" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:19 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:22 EDT" duration-ms="2867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnPrintmsgOnImplementationArray()[pri:12, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:22 EDT" name="ErrormsgOnPrintmsgOnImplementationArray" finished-at="2023-10-17T17:06:26 EDT" duration-ms="4714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnPrintmsgOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:26 EDT" name="browserQuit" finished-at="2023-10-17T17:06:27 EDT" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:27 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:29 EDT" duration-ms="2032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnImplementationArray()[pri:13, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:29 EDT" name="PrintmsgOnImplementationArray" finished-at="2023-10-17T17:06:33 EDT" duration-ms="3947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:33 EDT" name="browserQuit" finished-at="2023-10-17T17:06:33 EDT" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:33 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:36 EDT" duration-ms="2793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="QueueOperationsPage()[pri:14, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:36 EDT" name="QueueOperationsPage" finished-at="2023-10-17T17:06:39 EDT" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueueOperationsPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:39 EDT" name="browserQuit" finished-at="2023-10-17T17:06:39 EDT" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:39 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:42 EDT" duration-ms="2721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereOnQueueOperations()[pri:15, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:42 EDT" name="tryHereOnQueueOperations" finished-at="2023-10-17T17:06:45 EDT" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:45 EDT" name="browserQuit" finished-at="2023-10-17T17:06:46 EDT" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:46 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:48 EDT" duration-ms="2350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnQueueOperations()[pri:16, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:48 EDT" name="ErrormsgOnQueueOperations" finished-at="2023-10-17T17:06:53 EDT" duration-ms="4702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:53 EDT" name="browserQuit" finished-at="2023-10-17T17:06:53 EDT" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:53 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:56 EDT" duration-ms="3088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnQueueOperations()[pri:17, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:06:56 EDT" name="PrintmsgOnQueueOperations" finished-at="2023-10-17T17:07:00 EDT" duration-ms="3761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:07:00 EDT" name="browserQuit" finished-at="2023-10-17T17:07:00 EDT" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:07:00 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:03 EDT" duration-ms="2138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PracticePage()[pri:18, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:07:03 EDT" name="PracticePage" finished-at="2023-10-17T17:07:05 EDT" duration-ms="2547" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Practice Questions')]"}
+  (Session info: MicrosoftEdge=118.0.2088.46)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [686a266ff9bd4e2adc085fc9a20fe6b4, findElement {using=xpath, value=//a[contains(text(),'Practice Questions')]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56372}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\sheet\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56372/devtoo..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 686a266ff9bd4e2adc085fc9a20fe6b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Practice Questions')]"}
+  (Session info: MicrosoftEdge=118.0.2088.46)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [686a266ff9bd4e2adc085fc9a20fe6b4, findElement {using=xpath, value=//a[contains(text(),'Practice Questions')]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56372}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\sheet\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56372/devtoo..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 686a266ff9bd4e2adc085fc9a20fe6b4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at crossBrowser.CrossBrowserQueueTesting.PracticePage(CrossBrowserQueueTesting.java:550)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@662ac478]" started-at="2023-10-17T17:07:05 EDT" name="browserQuit" finished-at="2023-10-17T17:07:06 EDT" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- crossBrowser.CrossBrowserQueueTesting -->
+    </test> <!-- Testonmyedge -->
+    <test started-at="2023-10-17T17:04:52 EDT" name="Testonmyfirefox" finished-at="2023-10-17T17:08:23 EDT" duration-ms="210501">
+      <class name="crossBrowser.CrossBrowserQueueTesting">
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:04:52 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:06 EDT" duration-ms="13985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="login()[pri:1, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:06 EDT" name="login" finished-at="2023-10-17T17:05:10 EDT" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:10 EDT" name="browserQuit" finished-at="2023-10-17T17:05:12 EDT" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:12 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:21 EDT" duration-ms="8524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="QueuePage()[pri:2, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:21 EDT" name="QueuePage" finished-at="2023-10-17T17:05:24 EDT" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueuePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:24 EDT" name="browserQuit" finished-at="2023-10-17T17:05:27 EDT" duration-ms="3310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:27 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:33 EDT" duration-ms="5462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="pythonQueueImplmentationPage()[pri:3, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:33 EDT" name="pythonQueueImplmentationPage" finished-at="2023-10-17T17:05:38 EDT" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pythonQueueImplmentationPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:38 EDT" name="browserQuit" finished-at="2023-10-17T17:05:40 EDT" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:40 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:05:48 EDT" duration-ms="8413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHerePythonImplmentation()[pri:4, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:48 EDT" name="tryHerePythonImplmentation" finished-at="2023-10-17T17:05:53 EDT" duration-ms="4529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHerePythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:53 EDT" name="browserQuit" finished-at="2023-10-17T17:05:57 EDT" duration-ms="3930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:05:57 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:05 EDT" duration-ms="8801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnPythonImplmentation()[pri:5, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:05 EDT" name="ErrormsgOnPythonImplmentation" finished-at="2023-10-17T17:06:11 EDT" duration-ms="5572" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f5d77755-22d6-47d0-9e98-c661bf99084d, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:13262, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23244, moz:profile: C:\Users\sheet\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:13262/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5d77755-22d6-47d0-9e98-c661bf99084d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f5d77755-22d6-47d0-9e98-c661bf99084d, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:13262, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23244, moz:profile: C:\Users\sheet\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:13262/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5d77755-22d6-47d0-9e98-c661bf99084d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1107)
+at crossBrowser.CrossBrowserQueueTesting.ErrormsgOnPythonImplmentation(CrossBrowserQueueTesting.java:161)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnPythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:11 EDT" name="browserQuit" finished-at="2023-10-17T17:06:13 EDT" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:13 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:21 EDT" duration-ms="8123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnPythonImplmentation()[pri:5, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:21 EDT" name="PrintmsgOnPythonImplmentation" finished-at="2023-10-17T17:06:28 EDT" duration-ms="6509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnPythonImplmentation -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:28 EDT" name="browserQuit" finished-at="2023-10-17T17:06:31 EDT" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:31 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:39 EDT" duration-ms="7444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="DequePage()[pri:6, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:39 EDT" name="DequePage" finished-at="2023-10-17T17:06:42 EDT" duration-ms="3219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DequePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:42 EDT" name="browserQuit" finished-at="2023-10-17T17:06:45 EDT" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:45 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:06:52 EDT" duration-ms="7210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereDeque()[pri:7, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:52 EDT" name="tryHereDeque" finished-at="2023-10-17T17:06:57 EDT" duration-ms="4388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:06:57 EDT" name="browserQuit" finished-at="2023-10-17T17:07:00 EDT" duration-ms="3489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:00 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:07 EDT" duration-ms="7114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnDeque()[pri:8, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:07 EDT" name="ErrormsgOnDeque" finished-at="2023-10-17T17:07:10 EDT" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:10 EDT" name="browserQuit" finished-at="2023-10-17T17:07:11 EDT" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:11 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:15 EDT" duration-ms="3415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnDeque()[pri:9, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:15 EDT" name="PrintmsgOnDeque" finished-at="2023-10-17T17:07:17 EDT" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnDeque -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:17 EDT" name="browserQuit" finished-at="2023-10-17T17:07:19 EDT" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:19 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:22 EDT" duration-ms="3238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="OnImplementationArrayPage()[pri:10, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:22 EDT" name="OnImplementationArrayPage" finished-at="2023-10-17T17:07:24 EDT" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnImplementationArrayPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:24 EDT" name="browserQuit" finished-at="2023-10-17T17:07:25 EDT" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:25 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:29 EDT" duration-ms="3414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereOnImplementationArray()[pri:11, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:29 EDT" name="tryHereOnImplementationArray" finished-at="2023-10-17T17:07:31 EDT" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:31 EDT" name="browserQuit" finished-at="2023-10-17T17:07:32 EDT" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:32 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:36 EDT" duration-ms="3435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnPrintmsgOnImplementationArray()[pri:12, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:36 EDT" name="ErrormsgOnPrintmsgOnImplementationArray" finished-at="2023-10-17T17:07:38 EDT" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnPrintmsgOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:38 EDT" name="browserQuit" finished-at="2023-10-17T17:07:40 EDT" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:40 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:43 EDT" duration-ms="3465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnImplementationArray()[pri:13, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:43 EDT" name="PrintmsgOnImplementationArray" finished-at="2023-10-17T17:07:46 EDT" duration-ms="2702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnImplementationArray -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:46 EDT" name="browserQuit" finished-at="2023-10-17T17:07:47 EDT" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:47 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:50 EDT" duration-ms="3437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="QueueOperationsPage()[pri:14, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:50 EDT" name="QueueOperationsPage" finished-at="2023-10-17T17:07:52 EDT" duration-ms="1884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueueOperationsPage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:52 EDT" name="browserQuit" finished-at="2023-10-17T17:07:54 EDT" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:54 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:07:57 EDT" duration-ms="3528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="tryHereOnQueueOperations()[pri:15, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:07:57 EDT" name="tryHereOnQueueOperations" finished-at="2023-10-17T17:08:00 EDT" duration-ms="2299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryHereOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:00 EDT" name="browserQuit" finished-at="2023-10-17T17:08:01 EDT" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:01 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:08:04 EDT" duration-ms="3683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="ErrormsgOnQueueOperations()[pri:16, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:04 EDT" name="ErrormsgOnQueueOperations" finished-at="2023-10-17T17:08:08 EDT" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrormsgOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:08 EDT" name="browserQuit" finished-at="2023-10-17T17:08:09 EDT" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:09 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:08:12 EDT" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PrintmsgOnQueueOperations()[pri:17, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:12 EDT" name="PrintmsgOnQueueOperations" finished-at="2023-10-17T17:08:15 EDT" duration-ms="2669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintmsgOnQueueOperations -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:15 EDT" name="browserQuit" finished-at="2023-10-17T17:08:16 EDT" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="Lunchbrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:16 EDT" name="Lunchbrowser" finished-at="2023-10-17T17:08:19 EDT" duration-ms="3271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchbrowser -->
+        <test-method signature="PracticePage()[pri:18, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:19 EDT" name="PracticePage" finished-at="2023-10-17T17:08:21 EDT" duration-ms="1793" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[contains(text(),'Practice Questions')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [80a18470-f443-4b4b-b9be-bb0b090aa96e, findElement {using=xpath, value=//a[contains(text(),'Practice Questions')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:10336, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30032, moz:profile: C:\Users\sheet\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10336/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80a18470-f443-4b4b-b9be-bb0b090aa96e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(text(),'Practice Questions')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [80a18470-f443-4b4b-b9be-bb0b090aa96e, findElement {using=xpath, value=//a[contains(text(),'Practice Questions')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:10336, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30032, moz:profile: C:\Users\sheet\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10336/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80a18470-f443-4b4b-b9be-bb0b090aa96e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at crossBrowser.CrossBrowserQueueTesting.PracticePage(CrossBrowserQueueTesting.java:550)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticePage -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserQueueTesting@33c911a1]" started-at="2023-10-17T17:08:21 EDT" name="browserQuit" finished-at="2023-10-17T17:08:23 EDT" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- crossBrowser.CrossBrowserQueueTesting -->
+    </test> <!-- Testonmyfirefox -->
+  </suite> <!-- Suite -->
 </testng-results>
